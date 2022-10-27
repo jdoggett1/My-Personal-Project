@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(52, 52, 52);
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    font-size: 24px;
+    text-indent: 30px;
+  }
+  #footer {
+    font-size: 16px;
+    text-indent: 0;
+  }
+  * {
+    color: white;
+  }

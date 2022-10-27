@@ -1,0 +1,44 @@
+#crest {
+  height: 50px;
+}
+.nav {
+  overflow: hidden;
+  width: 800px;
+  margin: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  display: inline-block;
+  list-style-type: none;
+}
+li {
+  float: left;
+  font-size: 20px;
+  display: inline;
+}
+li a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+li a:hover {
+  background-color: maroon;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}

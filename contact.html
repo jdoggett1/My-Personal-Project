@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="icon" href="images/fcbcrest.png" type="image/x-icon" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="#"
+            ><img src="images/fcbcrest.png" alt="fcbcrest" id="crest"
+          /></a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="highlights.html">Highlights</a></li>
+        <li><a href="first_team.html">Current First Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+      </ul>
+    </div>
+    <h1>Contact Me</h1>
+    <form method="post" action="https://oim-apis.herokuapp.com/form2">
+      <fieldset>
+        <legend>My Information:</legend>
+        <div>
+          <p>Name: Ronald Liu Jr</p>
+          <p>
+            Email: <a href="mailto:rliujr1@babson.edu">rliujr1@babson.edu</a>
+          </p>
+          <p>
+            Instagram:
+            <a href="https://www.instagram.com/ronaldliujr/">ronaldliujr</a>
+          </p>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Your Information:</legend>
+        <div>
+          <div>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              maxlength="100"
+              placeholder="Enter your name here"
+            />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              maxlength="100"
+              placeholder="Email address"
+            />
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Feedback:</legend>
+        <div>
+          What do you think of this website?
+          <br />
+          <label><input type="radio" name="review" value="great" />Great</label>
+          <label
+            ><input type="radio" name="review" value="awesome" />Decent</label
+          >
+          <label><input type="radio" name="review" value="good" />Bad</label>
+        </div>
+        <div>
+          <label for="comments">Comments:</label>
+        </div>
+        <div>
+          <textarea name="comments" id="comments" cols="50" rows="5"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="submit" />
+          <input type="reset" value="reset" />
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="checkbox"
+            name="checkbox"
+            value="checkbox"
+            checked
+          />
+          <label for="checkbox"
+            >Would you like to sign up for email updates?</label
+          >
+        </div>
+      </fieldset>
+    </form>
+    <hr />
+    <footer>
+      <p id="footer">Creator: Ronald Liu Jr &copy;</p>
+    </footer>
+  </body>
+</html>
